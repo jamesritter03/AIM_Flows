@@ -285,8 +285,8 @@
         "ret": "txt",
         "url": "http://10.10.111.39:8080/WS/Relays/writeRelays?{{{query}}}",
         "tls": "",
-        "x": 570,
-        "y": 260,
+        "x": 690,
+        "y": 100,
         "wires": [
             [
                 "c4c78d4c.28c438"
@@ -306,10 +306,10 @@
         "once": false,
         "onceDelay": 0.1,
         "x": 160,
-        "y": 220,
+        "y": 60,
         "wires": [
             [
-                "60de393.9da2ec8"
+                "7c78cf6.0e5093"
             ]
         ]
     },
@@ -326,10 +326,10 @@
         "once": false,
         "onceDelay": 0.1,
         "x": 150,
-        "y": 260,
+        "y": 100,
         "wires": [
             [
-                "60de393.9da2ec8"
+                "7c78cf6.0e5093"
             ]
         ]
     },
@@ -343,8 +343,8 @@
         "console": false,
         "tostatus": false,
         "complete": "payload",
-        "x": 750,
-        "y": 260,
+        "x": 870,
+        "y": 100,
         "wires": []
     },
     {
@@ -357,7 +357,7 @@
         "order": 0,
         "width": 0,
         "height": 0,
-        "passthru": false,
+        "passthru": true,
         "decouple": "false",
         "topic": "",
         "style": "",
@@ -369,8 +369,8 @@
         "offvalueType": "str",
         "officon": "",
         "offcolor": "",
-        "x": 190,
-        "y": 300,
+        "x": 330,
+        "y": 100,
         "wires": [
             [
                 "60de393.9da2ec8"
@@ -396,8 +396,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 380,
-        "y": 260,
+        "x": 500,
+        "y": 100,
         "wires": [
             [
                 "49990a3a.59ad44"
